@@ -18,7 +18,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip thermo_control_android_cloud_build.zip
+          unzip thermo_control_android_cloud_build(1).zip
           cd thermo_control_android_cloud_build
           cp -r ./* ../
           cp -r .github ../
